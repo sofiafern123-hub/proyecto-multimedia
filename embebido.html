@@ -9,25 +9,50 @@
 <body>
 <div class="contenedor">
     <h1>Contenido Embebido</h1>
+
     <nav>
         <a href="index.html">Inicio</a>
         <a href="imagen.html">Imágenes</a>
         <a href="audio.html">Audios</a>
         <a href="video.html">Videos</a>
+        <a href="embebido.html">Contenido Embebido</a>
         <a href="opcional.html">Opcional</a>
     </nav>
+
     <section>
-        <h3>PDF</h3>
-        <iframe src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" width="600" height="400"></iframe>
-        
-        <h3>Mapa</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="600" height="400"></iframe>
-        
-        <h3>YouTube</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-        
-        <h3>Redes Sociales (Twitter)</h3>
-        <iframe src="https://twitter.com/TwitterDev" width="600" height="400"></iframe>
+        <h2>PDF embebido</h2>
+        <!-- Usamos un PDF de prueba confiable -->
+        <iframe src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" 
+                width="600" height="400" style="border:1px solid #ccc;">
+        </iframe>
+    </section>
+
+    <section>
+        <h2>Mapa de Google</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387144.0075832465!2d-74.2598736875!3d40.697670067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDQxJzUxLjYiTiA3NMKwMTUnMjMuMiJX!5e0!3m2!1ses!2sus!4v1633024800000!5m2!1ses!2sus" 
+                width="600" height="400" style="border:1px solid #ccc;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <section>
+        <h2>Video de YouTube</h2>
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </section>
+
+    <section>
+        <h2>Red social (Twitter)</h2>
+        <!-- Usamos el widget oficial de Twitter -->
+        <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">Hello world from Twitter!</p>
+            &mdash; Twitter (@Twitter) 
+            <a href="https://twitter.com/Twitter/status/20">March 21, 2006</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </section>
 </div>
 </body>
