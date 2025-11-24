@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Videos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="contenedor">
+    <h1>Videos</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="imagen.html">Imágenes</a>
+        <a href="audio.html">Audios</a>
+        <a href="embebido.html">Contenido Embebido</a>
+        <a href="opcional.html">Opcional</a>
+    </nav>
+    <section>
+        <video width="400" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <br>
+        <a href="https://www.w3schools.com/html/mov_bbb.mp4" download>
+            <button onclick="mensajeDescarga('video')">Descargar Video</button>
+        </a>
+    </section>
+</div>
+</body>
+</html>
