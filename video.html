@@ -9,6 +9,7 @@
 <body>
 <div class="contenedor">
     <h1>Videos</h1>
+
     <nav>
         <a href="index.html">Inicio</a>
         <a href="imagen.html">Imágenes</a>
@@ -16,14 +17,37 @@
         <a href="embebido.html">Contenido Embebido</a>
         <a href="opcional.html">Opcional</a>
     </nav>
+
     <section>
+        <h2>Serie de videos con opción de descarga</h2>
+
+        <h3>Video 1: Big Buck Bunny</h3>
         <video width="400" controls>
             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Tu navegador no soporta video.
         </video>
-        <br>
-        <a href="https://www.w3schools.com/html/mov_bbb.mp4" download>
-            <button onclick="mensajeDescarga('video')">Descargar Video</button>
-        </a>
+        <p><a href="https://www.w3schools.com/html/mov_bbb.mp4" download>Descargar Video 1</a></p>
+
+        <h3>Video 2: Sintel (trailer)</h3>
+        <video width="400" controls>
+            <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+        </video>
+        <p><a href="https://media.w3.org/2010/05/sintel/trailer.mp4" download>Descargar Video 2</a></p>
+
+        <h3>Video 3: Bunny (corto)</h3>
+        <video width="400" controls>
+            <source src="https://media.w3.org/2010/05/bunny/trailer.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+        </video>
+        <p><a href="https://media.w3.org/2010/05/bunny/trailer.mp4" download>Descargar Video 3</a></p>
+
+        <h3>Video 4: Elephants Dream</h3>
+        <video width="400" controls>
+            <source src="https://media.w3.org/2010/05/video/movie_300.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+        </video>
+        <p><a href="https://media.w3.org/2010/05/video/movie_300.mp4" download>Descargar Video 4</a></p>
     </section>
 </div>
 </body>
